@@ -1,5 +1,10 @@
 package com.gerenciadordetarefas.gerenciadordetarefas.user;
 
+import jakarta.persistence.Entity;
+import lombok.Data;
+
+@Data
+@Entity(name = "tb_users")
 public class UserModel {
     private String userName;
     private String name;
